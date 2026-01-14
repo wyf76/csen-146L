@@ -1,0 +1,22 @@
+# Output directories
+out_func_seq/
+out_func_thr/
+out_sys_seq/
+out_sys_thr/
+src/
+
+# Compiled binaries
+func_mt
+sys_mt
+1
+2
+3
+*.out
+
+# Editor / OS junk
+*.swp
+*.log
+.DS_Store
+
+# Build artifacts
+*.o

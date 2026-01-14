@@ -17,7 +17,7 @@ Description: This program copies a file from a source path to a destination path
 #include <time.h>    // clock()
 #include <sys/mman.h> // mmap()
 
-#define MAX_FILES  10 //max file compile
+#define BUF_SIZE 2048 //buffer size
 
 // copies a files from src_filename to dst_filename using functions fopen(), fread(), fwrite(), fclose()
 int func_copy(char* src_filename, char* dst_filename) {
