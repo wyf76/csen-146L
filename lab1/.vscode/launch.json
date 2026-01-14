@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/yufanweng/SCU/csen 146/lab1",
+      "program": "/Users/yufanweng/SCU/csen 146/lab1/build/Debug/outDebug"
+    }
+  ]
+}

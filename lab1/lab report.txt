@@ -1,0 +1,23 @@
+www.amazon.co.uk
+www.amazon.com
+
+
+a. netstat: displays the contents of network interfaces, with – a option, the command displays the
+state of all active sockets (more to come on sockets as end points of communication). With – r
+option, the routing table is displayed. Please type man netstat to learn about all options.
+b. ifconfig: configures network interface parameters. With – a option, the state of all interfaces are
+displayed. Other options are also used to assign a new IP address to an interface, to assign a
+new network mask for an interface, to disable an interface, and more. Please type man ifconfig to
+learn about all options.
+c. hostname: displays and sets hostname of the system. Please type man hostname to learn about
+all options.
+d. ping: sends ECHO_REQUEST datagram to a network host using ICMP protocol to elicit an
+ECHO_RESPONSE from the host or gateway. Please type man ping to learn about all options.
+e. traceroute: displays the route packets trace to a network host using IP protocol “time to live”.
+Please type man tracerout to learn about all options.
+f. telnet: remote connection to server at a specific port (mainly 80 – http port)
+COEN 146 – Lab 1 3/4
+g. host/dig: performs DNS lookups.
+h. route: manipulates network routing tables.
+i. arp: displays and modifies the Internet-to-Ethernet address translation tables used by the address
+resolution protocol.
