@@ -1,11 +1,9 @@
-// COEN 146L : Lab 1 - template to use for file transfer (steps 1, 2, and 3)
-// You need to adapt this template according to the requirements of each of the steps
 /*
 Name: Yufan Weng
-Date: Jan 7, 2026
-Title: Lab 1 - File Copying using Functions and Syscalls
+Date: Jan 14, 2026
+Title: Lab 2 - File Copying using Functions and Syscalls
 Description: This program copies a file from a source path to a destination path using two methods—(1) C standard I/O functions 
-(fopen, fread, fwrite) and (2) UNIX system calls (open, read, write)—and measures the CPU time of each method using clock().
+and (2) UNIX system calls—and measures the CPU time of each method using clock().
 */
 
 #include <stdio.h>   // fprintf(), fread(), fwrite(), fopen(), fclose()
