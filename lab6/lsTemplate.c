@@ -1,5 +1,3 @@
-// COEN 146L - Lab: Link State routing
-
 /* 
 * Name: Yufan Weng
 * Date: Feb 11, 2026
